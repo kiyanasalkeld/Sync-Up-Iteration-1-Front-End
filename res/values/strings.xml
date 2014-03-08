@@ -9,6 +9,9 @@
     <string name="username">username</string>
     <string name="discover">DISCOVER</string>
     <string name="socialize">SOCIALIZE</string>
-
-
+    <string name="to_do">TO DO</string>
+    <string name="activities">ACTIVITIES</string>
+    <string name="account_settings">ACCOUNT SETTINGS</string>
+    <string name="add_friends">ADD FRIENDS</string>
+    <string name="my_friends">MY FRIENDS</string>
 </resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/firebrick_red"
+                android:orientation="vertical"
+                android:weightSum="1.0"
+
+        >
+
+
+
+
+    <Button
+            android:id="@+id/to_do_button"
+            android:text="@string/to_do"
+            android:background="@drawable/image_button_welcome_screen"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            />
+
+    <Button
+            android:id="@+id/activities_button"
+            android:text="@string/activities"
+            android:background="@drawable/image_button_welcome_screen"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.16"
+            />
+
+    <Button
+            android:id="@+id/account_settings_button"
+            android:text="@string/account_settings"
+            android:background="@drawable/image_button_welcome_screen"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.16"
+            />
+
+    <Button
+            android:id="@+id/add_friends_button"
+            android:text="@string/add_friends"
+            android:background="@drawable/image_button_welcome_screen"
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.16"
+            />
+
+    <Button
+            android:id="@+id/my_friends_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_friends"
+            android:background="@drawable/image_button_welcome_screen"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.16"
+            />
+
+
+
+
+
+</LinearLayout>
