@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Sync Up</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="signupButton">SIGN UP</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="discover">DISCOVER</string>
+    <string name="socialize">SOCIALIZE</string>
+
+
+</resources>
