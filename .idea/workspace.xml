@@ -30,13 +30,16 @@
     <file path="$PROJECT_DIR$/.idea/modules.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394309931019" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394309931019" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394309931019" ignored="false" />
-    <file path="$PROJECT_DIR$/src/edu/berkeley/Sync_Up_Itetation_1/MyActivity.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394310141326" ignored="false" />
     <file path="/welcome_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394310671706" ignored="false" />
     <file path="/strings.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394315871299" ignored="false" />
-    <file path="/Dummy.txt" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394313226044" ignored="false" />
+    <file path="/Dummy.txt" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316531642" ignored="false" />
     <file path="/home_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394311818793" ignored="false" />
     <file path="/socialize_home_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394311126325" ignored="false" />
     <file path="/socialize.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316419465" ignored="false" />
+    <file path="/activity.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316688771" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/Manifest.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316696285" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/BuildConfig.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316695621" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/R.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316696285" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
       <file leaf-file-name="welcome_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.111111">
+            <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.111111">
               <folding />
             </state>
           </provider>
@@ -130,10 +133,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socialize.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="socialize.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/socialize.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="44" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.6875">
+            <state line="61" column="44" selection-start="2214" selection-end="2214" vertical-scroll-proportion="-33.88889">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="10" selection-start="444" selection-end="444" vertical-scroll-proportion="0.32445922">
               <folding />
             </state>
           </provider>
@@ -163,6 +178,7 @@
         <option value="$PROJECT_DIR$/res/layout/home_screen.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/socialize.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity.xml" />
       </list>
     </option>
   </component>
@@ -213,6 +229,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sync Up Iteration 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sync Up Iteration 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sync Up Iteration 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sync_Up_Iteration_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,6 +330,24 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -635,7 +687,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.111111">
+        <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.111111">
           <folding />
         </state>
       </provider>
@@ -655,7 +707,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/socialize.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="44" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.6875">
+        <state line="61" column="44" selection-start="2214" selection-end="2214" vertical-scroll-proportion="-33.88889">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="444" selection-end="444" vertical-scroll-proportion="0.32445922">
           <folding />
         </state>
       </provider>

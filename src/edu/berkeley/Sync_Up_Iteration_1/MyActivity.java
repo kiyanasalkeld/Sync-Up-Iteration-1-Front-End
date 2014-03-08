@@ -1,4 +1,4 @@
-package edu.berkeley.Sync_Up_Itetation_1;
+package edu.berkeley.Sync_Up_Iteration_1;
 
 import android.app.Activity;
 import android.os.Bundle;
