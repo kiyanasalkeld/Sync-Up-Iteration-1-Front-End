@@ -14,7 +14,7 @@
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
-        <option name="device" value="3.4in WQVGA" />
+        <option name="device" value="Nexus 10" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-18" />
@@ -31,8 +31,8 @@
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394309931019" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394309931019" ignored="false" />
     <file path="/welcome_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394310671706" ignored="false" />
-    <file path="/strings.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394480056904" ignored="false" />
-    <file path="/Dummy.txt" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316531642" ignored="false" />
+    <file path="/strings.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394481882275" ignored="false" />
+    <file path="/Dummy.txt" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394480644918" ignored="false" />
     <file path="/home_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394311818793" ignored="false" />
     <file path="/socialize_home_screen.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394311126325" ignored="false" />
     <file path="/socialize.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316419465" ignored="false" />
@@ -40,6 +40,8 @@
     <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/Manifest.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316696285" ignored="false" />
     <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/BuildConfig.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316765233" ignored="false" />
     <file path="$PROJECT_DIR$/gen/edu/berkeley/Sync_Up_Iteration_1/R.java" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394316696285" ignored="false" />
+    <file path="/create_activity.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394485574216" ignored="false" />
+    <file path="/friend_select_background.xml" changelist="708453e5-bb35-49de-920e-a52136c7fddc" time="1394483981996" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="12" column="1" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +114,7 @@
       <file leaf-file-name="welcome_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-0.5555556">
+            <state line="15" column="10" selection-start="338" selection-end="796" vertical-scroll-proportion="-8.333333">
               <folding />
             </state>
           </provider>
@@ -121,22 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_screen.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/home_screen.xml">
+      <file leaf-file-name="create_activity.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/create_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="-8.888889">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="12" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.72545755">
+            <state line="242" column="30" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.75570035">
               <folding />
             </state>
           </provider>
@@ -154,6 +144,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="friend_select_background.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/friend_select_background.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -164,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/color.xml" />
         <option value="$PROJECT_DIR$/res/layout/welcome_screen.xml" />
         <option value="$PROJECT_DIR$/res/drawable-hdpi/edit_text_background.xml" />
         <option value="$PROJECT_DIR$/res/drawable-hdpi/image_button_background.xml" />
@@ -175,15 +173,19 @@
         <option value="$PROJECT_DIR$/res/layout/home_screen.xml" />
         <option value="$PROJECT_DIR$/res/layout/socialize.xml" />
         <option value="$PROJECT_DIR$/res/drawable-hdpi/white_title_background.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/calendar.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/radio_button.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/friend_select_background.xml" />
+        <option value="$PROJECT_DIR$/res/layout/create_activity.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="22" />
-    <option name="width" value="1352" />
+    <option name="width" value="1399" />
     <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -476,6 +478,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <list size="2">
@@ -514,12 +518,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1352" height="812" extended-state="0" />
+    <frame x="10" y="22" width="1399" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3780675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37749815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,7 +535,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17791411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17172465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -607,26 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
-      <provider editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/home_screen.xml">
-      <provider editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
@@ -682,9 +666,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/white_title_background.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-0.5555556">
+        <state line="9" column="4" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="293" selection-end="759" vertical-scroll-proportion="0.22462562">
           <folding />
         </state>
       </provider>
@@ -694,12 +685,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/home_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="-8.888889">
+        <state line="16" column="38" selection-start="633" selection-end="633" vertical-scroll-proportion="0.39087948">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/welcome_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="338" selection-end="796" vertical-scroll-proportion="-8.333333">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/edit_text_background.xml">
@@ -709,23 +717,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/white_title_background.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/friend_select_background.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="8" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/create_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="12" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.72545755">
+        <state line="242" column="30" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.75570035">
           <folding />
         </state>
       </provider>

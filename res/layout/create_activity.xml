@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/firebrick_red"
+
+        >
+
+    <TextView
+            android:id="@+id/create_activity_title"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="@drawable/white_title_background"
+            android:layout_marginBottom="15dp"
+            android:text="@string/create_activity"
+            android:textColor="@color/firebrick_red"
+            android:textSize="35dp"
+            android:gravity="center_horizontal"
+            />
+
+    <TextView
+            android:id="@+id/fill_out_fields_prompt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/create_activity_title"
+            android:text="@string/fill_out_fields_prompt"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    <ScrollView
+            android:id="@+id/scrollview1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/fill_out_fields_prompt"
+            android:layout_centerHorizontal="true"
+            >
+
+        <RelativeLayout
+                android:id="@+id/main_scrollview_layout"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                >
+
+            <LinearLayout
+                    android:id="@+id/layout1"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/firebrick_red"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                <EditText
+                        android:id="@+id/activity_name_input"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_centerHorizontal="true"
+                        android:hint="@string/activity_name"
+                        android:textColorHint="@color/navy_slate"
+                        android:textColor="@color/navy_slate"
+                        android:textStyle="italic"
+                        android:paddingLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                <EditText
+                        android:id="@+id/activity_location_input"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_centerHorizontal="true"
+                        android:hint="@string/location"
+                        android:textColorHint="@color/navy_slate"
+                        android:textColor="@color/navy_slate"
+                        android:textStyle="italic"
+                        android:paddingLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                <EditText
+                        android:id="@+id/activity_date_input"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_centerHorizontal="true"
+                        android:hint="@string/date"
+                        android:textColorHint="@color/navy_slate"
+                        android:textColor="@color/navy_slate"
+                        android:textStyle="italic"
+                        android:paddingLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                <EditText
+                        android:id="@+id/activity_start_time_input"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_centerHorizontal="true"
+                        android:hint="@string/start_time"
+                        android:textColorHint="@color/navy_slate"
+                        android:textColor="@color/navy_slate"
+                        android:textStyle="italic"
+                        android:paddingLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                <EditText
+                        android:id="@+id/activity_end_time_input"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_centerHorizontal="true"
+                        android:hint="@string/end_time"
+                        android:textColorHint="@color/navy_slate"
+                        android:textColor="@color/navy_slate"
+                        android:textStyle="italic"
+                        android:paddingLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/photos"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/photos"
+                    android:layout_below="@id/layout1"
+                    android:textSize="20dp"
+                    android:layout_marginTop="13dp"
+                    />
+
+            <ImageButton
+                    android:id="@+id/camera_button"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/photos"
+                    android:layout_below="@id/layout1"
+                    android:background="@drawable/camera_button"
+                    android:layout_marginLeft="15dp"
+
+                    />
+
+
+            <EditText
+                    android:id="@+id/activity_description_input"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/description"
+                    android:textColorHint="@color/navy_slate"
+                    android:textColor="@color/navy_slate"
+                    android:textStyle="italic"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@id/photos"
+                    android:layout_marginTop="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/invite_friends"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/invite_friends"
+                    android:layout_below="@id/activity_description_input"
+                    android:textSize="20dp"
+                    android:layout_marginTop="13dp"
+                    />
+
+            <TextView
+                    android:id="@+id/select_list"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/select_list"
+                    android:layout_below="@id/invite_friends"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    />
+
+            <RadioGroup
+                    android:id="@+id/lists_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/select_list"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                <RadioButton
+                        android:id="@+id/starred_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/starred_friends"
+                        android:checked="true"
+
+                        />
+
+                <RadioButton
+                        android:id="@+id/public_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/public"
+                        />
+
+            </RadioGroup>
+
+            <TextView
+                    android:id="@+id/select_friends"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/select_friends"
+                    android:layout_below="@id/lists_group"
+                    android:textSize="17dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <ListView
+            android:id="@+id/friend_list"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/scrollview1"
+            android:background="@drawable/friend_select_background"
+            >
+
+            </ListView>
+
+
+
+</RelativeLayout>
