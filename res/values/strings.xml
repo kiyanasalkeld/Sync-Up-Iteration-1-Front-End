@@ -14,4 +14,6 @@
     <string name="account_settings">ACCOUNT SETTINGS</string>
     <string name="add_friends">ADD FRIENDS</string>
     <string name="my_friends">MY FRIENDS</string>
+    <string name="create">CREATE</string>
+    <string name="calendar">CALENDAR</string>
 </resources>
