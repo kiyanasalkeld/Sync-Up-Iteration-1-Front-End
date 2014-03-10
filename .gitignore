@@ -1,0 +1,24 @@
+# Build app files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Gradle files
+.gradle/
+build/
+
+# local properties
+local.properties
+
+# idea stuff
+*/.idea/workspace.xml
+*/.idea/tasks.xml
